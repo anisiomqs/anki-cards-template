@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+  
+body,
+html {
+  align-items: center;
+  background: #db0a5b;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+}
+  
+.my-card {
+  top: 10rem;
+  left: 10rem;
+  background: #000;
+  border-radius: 1.25rem;
+  color: #fff;
+  -webkit-filter: drop-shadow(5px 5px 5px #000);
+          filter: drop-shadow(5px 5px 5px #000);
+  flex-shrink: 0;
+  font-family: 'Avenir', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  height: 28rem;
+  padding: 2.5rem;
+  position: absolute;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+  width: 80%;
+}
+  
+.left-tilted {
+  top: 8rem;
+  left: 20rem;
+  width: 40rem;
+  height: 25rem;
+  -webkit-transform: translate(-40%, 0) rotate(-15deg);
+          transform: translate(-40%, 0) rotate(-15deg);
+}
+  
+.my-card--answer {
+  color: #000;
+  background: #fff;
+  left: 20rem;
+  top: 22rem;
+  width: 70%;
+}
