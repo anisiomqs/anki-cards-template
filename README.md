@@ -4,8 +4,8 @@ HTML and CSS to be inserted as a template (Basic) in [Anki](https://apps.ankiweb
 
 This is how the question looks like:
 
-![Question][front.png]
+![Question](front.png)
 
 And this is the answer:
 
-![Answer][back.png]
+![Answer](back.png)
