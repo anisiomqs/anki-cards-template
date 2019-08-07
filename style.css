@@ -26,7 +26,7 @@ html {
   font-family: 'Avenir', sans-serif;
   font-size: 1.5rem;
   font-weight: bolder;
-  height: 28rem;
+  min-height: 28rem;
   padding: 2.5rem;
   position: absolute;
   transition: -webkit-transform 0.25s ease-out;
@@ -36,8 +36,8 @@ html {
 }
   
 .left-tilted {
-  top: 8rem;
-  left: 20rem;
+  top: 3rem;
+  left: 18rem;
   width: 40rem;
   height: 25rem;
   -webkit-transform: translate(-40%, 0) rotate(-15deg);
